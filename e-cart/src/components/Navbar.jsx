@@ -1,15 +1,20 @@
 import React from 'react'
 import '@fortawesome/fontawesome-free/css/all.min.css'
+import '../styles/navbar.css'
 
 const Navbar = () => {
   return (
     <nav>
         <div className='nav_box'>
-            <span>
+            <span className='my_shop'>
                 Er-Cart
             </span>
             <div className='cart'>
-                <i className='fas fa-cart-plus'></i>
+                <span>
+                    <i className='fas fa-cart-plus'></i>
+                </span>
+                <span>0</span>
+                
             </div>
         </div>
     </nav>
