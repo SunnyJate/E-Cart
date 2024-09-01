@@ -24,3 +24,22 @@ nav{
     cursor: pointer;
     margin: 10px;
 }
+
+.cart{
+    cursor: pointer;
+    color: white;
+    margin: 10px;
+}
+
+.cart span:nth-child(1){
+    font-size: 2rem;
+}
+
+.cart span:nth-child(2){
+    padding: 0 3px;
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    top: -15px;
+    border-radius: 50%;
+}
